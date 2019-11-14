@@ -3,9 +3,12 @@
 # My Alias commands
 #
 # =================================================
+# -- File management aliases
 alias ldir="ls -ld */"
+alias cls='/usr/bin/clear'
 
-# Rsync Backup
+# Rsync Backup's
+# =================================================
 # Home directory
 alias bup='rsync --archive --delete --progress --human-readable --exclude-from '$HOME/rsync-exclude-list.txt' ~/ /media/webrev/Backup/home-backup | tee ~/rsync.log'
 
@@ -15,8 +18,6 @@ alias bsup='rsync --archive --delete --progress --human-readable /media/storage 
 # ZSH
 alias rf='source ~/.zshrc'
 #alias rmds='find . -type f -name '*.DS_Store' -ls -delete'
-alias cls='/usr/bin/clear'
-
 
 
 #
@@ -27,6 +28,10 @@ alias lt="learn-test"
 alias ltf="clear && learn-test --f-f"
 alias ss="learn-submit"
 
+#
+# Developing Aliases'
+#
+# #################################################
 # NPM development
 alias ns="npm start"
 alias nb="npm run build"

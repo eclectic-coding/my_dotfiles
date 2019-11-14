@@ -1,6 +1,6 @@
 # =================================================
 #
-# My System Configuration 
+# My System Configuration
 #
 # =================================================
 # Path to your oh-my-zsh installation.
@@ -20,8 +20,8 @@ source $HOME/.zshrc_aliases
 
 # =================================================
 #
-# PATH's 
-# 
+# PATH's
+#
 # =================================================
 
 # NVM
@@ -44,6 +44,5 @@ path+=('$HOME/bin')
 path+=('$HOME/WebStorm/bin')
 path+=('/usr/local/go/bin')
 path+=('$HOME/go/bin')
-fpath=($fpath "$HOME/.zfunctions")
 
 
