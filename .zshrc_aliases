@@ -1,0 +1,48 @@
+# =================================================
+#
+# My Alias commands
+#
+# =================================================
+alias ldir="ls -ld */"
+
+# Rsync Backup
+# Home directory
+alias bup='rsync --archive --delete --progress --human-readable --exclude-from '$HOME/rsync-exclude-list.txt' ~/ /media/webrev/Backup/home-backup | tee ~/rsync.log'
+
+# Storage Drive
+alias bsup='rsync --archive --delete --progress --human-readable /media/storage /media/webrev/Backup/storage-drive | tee ~/rsync-storage.log'
+
+# ZSH
+alias rf='source ~/.zshrc'
+#alias rmds='find . -type f -name '*.DS_Store' -ls -delete'
+alias cls='/usr/bin/clear'
+
+
+
+#
+# Flatiron Alias'
+#
+# #################################################
+alias lt="learn-test"
+alias ltf="clear && learn-test --f-f"
+alias ss="learn-submit"
+
+# NPM development
+alias ns="npm start"
+alias nb="npm run build"
+alias nrs="npm run serve"
+
+# YARN development
+alias ys="yarn start"
+# Ruby
+alias bxs="bundle exec shotgun"
+
+# GITGIGNORE
+alias giruby="gi ruby,rails >> ./.gitignore"
+alias ginode="gi node,react,vue,vuejs >> ./.gitignore"
+alias givue="gi node,vue,vuejs,nuxt,nuxtjs >> ./.gitignore"
+
+
+
+
+
