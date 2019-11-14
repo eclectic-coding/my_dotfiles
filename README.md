@@ -27,3 +27,6 @@ Custom Aliases are normally stored in `.zshrc` but like I said I prefer a modula
 Functions are more elaborate aliases and they reside in this file:
 - I have a series and shortcut git commit functions here
 - The `gi` command works with the aliases in the previous file. You can read more about this function at [gitignore.io](http://gitignore.io/)
+
+### Gitconfig
+This is not my complete file but just my aliases for GIT
